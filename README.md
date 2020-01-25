@@ -1,0 +1,2 @@
+# Two-Dimensional-Binary-Indexed-Tree
+A Two Dimensional Binary Indexed Tree or Fenwick Tree is a data structure that can efficiently update elements and calculate prefix sums in a table of numbers. We know that to answer range sum queries on a 1-D array efficiently, binary indexed tree (or Fenwick Tree) is the best choice (even better than segment tree due to less memory requirements and a little faster than segment tree).

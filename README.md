@@ -13,4 +13,3 @@
 
    Example: print(getSum(bin_tree,3)) #That will give you 10
    
-5. 

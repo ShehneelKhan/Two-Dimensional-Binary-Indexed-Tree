@@ -22,3 +22,10 @@ Since Fenwick tree stores prefix sums, 1D Fenwick tree works by processing query
 * Update : O(log2(MN))
 * Query : O(log2(MN))
 Where the matrix is of size M x N
+
+
+## Applications
+* Is much more space efficient than 2D Segment tree or Quad tree.
+* The queries can be processed in O(log2mn) time.
+* Used for finding sub-matrix sum/product etc.
+* Cannot be used for sub-matrix min/max.

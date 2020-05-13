@@ -1,15 +1,14 @@
-# Fenwick Tree Project
+# 2D Fenwick Tree
+This is the project for "Data structures and algorithms".
 
-1. In order to run my project , first declare an array by making an object.
-   Example: array=[1,2,3,4,5,6]
-   
-2. Now, make another object and call the "construct" function. That will make a binary indexed tree of the array.
-   Example: bin_tree=construct(array,len(array))
-   
-3. You can print "bin_tree" to see the binary indexed tree
 
-4. To find a sum of the array you initiaze, just call the getSum function and give the binary tree as a parameter and a range to find the    prefix sum of the given range.
-   NOTE: IT GIVES THE PREFIX SUM OF THE ARRAY YOU INITIALIZE NOT OF THE BINARY TREE. BINARY TREE IS THERE JUST TO HELP YOU FIND THE PREFIX          SUM OF THE ARRAY WITH LESS COMPLEXITY!!!
+## Introduction
 
-   Example: print(getSum(bin_tree,3)) #That will give you 10
-   
+To understand 2D Fenwick tree better, you should first understand Fenwick tree.
+### Binary Indexed Tree/Fenwick Tree
+A Binary Indexed Tree or Fenwick Tree is a data structure that can efficiently update elements and calculate prefix sums in a table of numbers. We know that to answer range sum queries on a 1-D array efficiently, binary indexed tree (or Fenwick Tree) is the best choice (even better than segment tree due to less memory requirements and a little faster than segment tree).
+
+### Two Dimenstional Binary Indexed Tree/2D Fenwick Tree
+2D Fenwick tree is one such implementation used to answer sub-matrix queries, i.e. queries in 2 dimensions. Fenwick tree is considered a prerequisite to understand 2D Fenwick tree. Like 1D, 2D Fenwick tree also requires the operation to be invertible.
+
+Since Fenwick tree stores prefix sums, 1D Fenwick tree works by processing query(m, n) as query(1, n) - query(1, m - 1). 2D Fenwick tree operates on a matrix, so query is processed differently, but the requirement is still same, i.e. operation must be invertible.

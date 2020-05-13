@@ -1,5 +1,6 @@
 # 2D Fenwick Tree
 This is the project for "Data structures and algorithms".
+I have used Python for this project whereas no libraries have been used.
 
 
 ## Introduction

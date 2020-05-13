@@ -13,3 +13,12 @@ A Binary Indexed Tree or Fenwick Tree is a data structure that can efficiently u
 2D Fenwick tree is one such implementation used to answer sub-matrix queries, i.e. queries in 2 dimensions. Fenwick tree is considered a prerequisite to understand 2D Fenwick tree. Like 1D, 2D Fenwick tree also requires the operation to be invertible.
 
 Since Fenwick tree stores prefix sums, 1D Fenwick tree works by processing query(m, n) as query(1, n) - query(1, m - 1). 2D Fenwick tree operates on a matrix, so query is processed differently, but the requirement is still same, i.e. operation must be invertible.
+
+## Complexity
+### Space complexity : O(MN)
+
+### Worst case time complexities:
+
+* Update : O(log2(MN))
+* Query : O(log2(MN))
+Where the matrix is of size M x N
